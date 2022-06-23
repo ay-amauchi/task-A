@@ -34,12 +34,15 @@ print(f"Name: {bob_info[0]} {bob_info[1]},Age: {bob_info[2]}")
 # for を使って odd_numbers の各要素を出力してください
 
 odd_numbers = [1, 3, 5, 7, 9]
+for r in range(0, len(odd_numbers)):
+    print(odd_numbers[r])
 
 # A-7: forによるループその2
 # for を使って even_numbers のそれぞれの値を2倍した値を出力してください
 
 even_numbers = [2, 4, 6, 8]
-
+for r in range(0, len(even_numbers)):
+    print(2 * even_numbers[r])
 
 # A-8: リストを要素に持つリスト
 # users_info を使って次のような出力をしてください
